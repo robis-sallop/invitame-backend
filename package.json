@@ -1,0 +1,25 @@
+{
+  "name": "invitame-backend",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "dev": "node --loader ts-node/esm --transpile-only src/index.ts",
+    "build": "tsc -p ."
+  },
+  "dependencies": {
+    "cors": "^2.8.5",
+    "dotenv": "^16.3.1",
+    "express": "^4.18.4",
+    "mongodb": "^7.5.0",
+    "nanoid": "^6.0.0"
+  },
+  "devDependencies": {
+    "@types/cors": "^2.8.17",
+    "@types/express": "^4.17.19",
+    "@types/node": "^20.11.0",
+    "ts-node": "^10.9.1",
+    "tsx": "^4.23.1",
+    "typescript": "^5.6.2"
+  }
+}
